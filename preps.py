@@ -83,6 +83,6 @@ def prep_data(X, y):
     min_max_scaler(y)
     std_scaler(X)
 
-    X_train, X_test, y_train, y_test = splitter(X, y,0.3, 42)
+    X_train, X_test, y_train, y_test = splitter(X, y, 0.15, 41)
     return X_train, X_test, y_train, y_test
 
